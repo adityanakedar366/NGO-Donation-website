@@ -45,10 +45,10 @@ This project is implemented as a single `index.html` file containing:
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
-"git clone https://github.com/adityanakedar366/Hope-Foundation.git"
-2. Open `index.html` in any modern browser.
-3. Test interactions:
+1. Clone the repository: `git clone https://github.com/adityanakedar366/Hope-Foundation.git`
+2. Redirect `cd Hope-Foundation`
+3. Open `index.html`
+4. Test interactions:
 - Click preset donation amounts.
 - Enter a custom amount.
 - Fill in name and email.
