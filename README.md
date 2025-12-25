@@ -1,6 +1,10 @@
 # Hope Foundation - Donate Today
 
-A modern, responsive single-page donation landing site for **Hope** Foundation, built using pure HTML, CSS, and vanilla JavaScript. The page showcases the mission (Food, Education, Healthcare) and includes an interactive donation form with preset and custom amounts. [web:2][web:5]
+A modern, responsive single-page donation landing site for **Hope** Foundation, built using pure HTML, CSS, and vanilla JavaScript.
+
+## 🌐 Live Links
+
+- Live Website: https://hope-foundation-chi.vercel.app  
 
 ## ✨ Features
 
@@ -16,7 +20,7 @@ A modern, responsive single-page donation landing site for **Hope** Foundation, 
 
 ## 🛠️ Tech Stack
 
-- **HTML5**: Semantic structure for hero, mission, donation, and footer sections. 
+- **HTML5**: Semantic structure for hero, mission, donation, and footer sections.
 - **CSS3**: Custom responsive styling, layout, hover effects, and media queries.
 - **JavaScript (Vanilla)**: Handles amount selection, custom amount logic, form submission, and success alerts.
 - **Font Awesome 6 (CDN)**: Icons for feature cards.
@@ -39,49 +43,20 @@ This project is implemented as a single `index.html` file containing:
   - `<footer>` with copyright text.
   - Embedded `<script>` block for all JavaScript logic.
 
-No external build tools or bundlers are required; it is a fully static single-file implementation suitable for quick deployment.
-
 ## 🚀 Getting Started
 
-1. Create a new file named `index.html` in your project folder.
-2. Paste the complete code from your project (the HTML, CSS inside `<style>`, and JS inside `<script>`).
-3. Open `index.html` in any modern browser (Chrome, Firefox, Edge, etc.).
-4. Test interactions:
-   - Click preset donation amounts.
-   - Enter a custom amount.
-   - Fill in name and email.
-   - Submit to see the simulated confirmation alert.
+1. Clone the repository:
+`git clone https://github.com/adityanakedar366/Hope-Foundation.git
+cd Hope-Foundation
+`
+2. Open `index.html` in any modern browser.
+3. Test interactions:
+- Click preset donation amounts.
+- Enter a custom amount.
+- Fill in name and email.
+- Submit to see the simulated confirmation alert.
 
-This setup works out-of-the-box on any static hosting provider (GitHub Pages, Netlify, Vercel, etc.).
-
-## 🎯 Key Behaviors
-
-- Selecting a preset amount:
-  - Adds a `selected` class to the clicked button.
-  - Removes `selected` from other buttons.
-  - Clears the custom amount input field.
-  - Updates `selectedAmount` in JavaScript.
-
-- Typing in the custom amount input:
-  - Removes `selected` class from all preset buttons.
-  - Updates `selectedAmount` to the input value.
-
-- Submitting the form:
-  - Prevents default page refresh using `e.preventDefault()`.
-  - Validates that `selectedAmount` exists and is greater than 0.
-  - Shows an alert with donor name, amount, and email.
-  - Resets the form, clears button selection, and resets `selectedAmount` to 0.
-
-## 📱 Responsiveness
-
-- On screens `≤ 768px`:
-  - Navigation links are hidden for simplicity.
-  - Hero heading font size is reduced.
-  - Donation container padding is reduced for better fit.
-- On larger screens:
-  - Full navigation and multi-column card layout are shown.
-
-## 🔧 Customization Tips
+## 🔧 Customization
 
 - **Change preset amounts**: Update `data-amount` attributes and button labels in the donation form.
 - **Switch currency**: Replace `$` symbols in HTML and alert messages with your desired currency.
