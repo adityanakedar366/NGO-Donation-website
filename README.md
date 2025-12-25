@@ -4,7 +4,7 @@ A modern, responsive single-page donation landing site for **Hope** Foundation, 
 
 ## ✨ Features
 
-- Responsive single-page layout with hero, mission, and donation sections. [web:2]
+- Responsive single-page layout with hero, mission, and donation sections.
 - Sticky navigation bar with smooth section navigation using anchor links.
 - Interactive donation form with:
   - Preset amount buttons ($10, $25, $50, $100)
@@ -12,15 +12,15 @@ A modern, responsive single-page donation landing site for **Hope** Foundation, 
   - Basic validation to ensure amount > 0
 - Clean card-based mission section for Food Security, Education, and Healthcare.
 - Modern UI with hover animations, soft shadows, and smooth transitions.
-- Font Awesome 6 icons integrated via CDN for visual enhancement. [web:7]
+- Font Awesome 6 icons integrated via CDN for visual enhancement.
 
 ## 🛠️ Tech Stack
 
-- **HTML5**: Semantic structure for hero, mission, donation, and footer sections. [web:5]
+- **HTML5**: Semantic structure for hero, mission, donation, and footer sections. 
 - **CSS3**: Custom responsive styling, layout, hover effects, and media queries.
 - **JavaScript (Vanilla)**: Handles amount selection, custom amount logic, form submission, and success alerts.
-- **Font Awesome 6 (CDN)**: Icons for feature cards. [web:7]
-- **Unsplash Background Image**: High-quality hero section image via external URL. [web:2]
+- **Font Awesome 6 (CDN)**: Icons for feature cards.
+- **Unsplash Background Image**: High-quality hero section image via external URL.
 
 ## 📁 File Overview
 
@@ -52,7 +52,7 @@ No external build tools or bundlers are required; it is a fully static single-fi
    - Fill in name and email.
    - Submit to see the simulated confirmation alert.
 
-This setup works out-of-the-box on any static hosting provider (GitHub Pages, Netlify, Vercel, etc.). [web:4][web:6]
+This setup works out-of-the-box on any static hosting provider (GitHub Pages, Netlify, Vercel, etc.).
 
 ## 🎯 Key Behaviors
 
@@ -87,14 +87,3 @@ This setup works out-of-the-box on any static hosting provider (GitHub Pages, Ne
 - **Switch currency**: Replace `$` symbols in HTML and alert messages with your desired currency.
 - **Update hero image**: Replace the Unsplash URL in the `.hero` background property.
 - **Modify mission content**: Edit card titles and descriptions under the Mission section.
-
-## 📄 License & Usage
-
-You can reuse and modify this single-file implementation for:
-
-- Non-profit organizations
-- Charity campaigns
-- Educational projects
-- Portfolio examples
-
-For production-ready donation processing, connect the form to a backend or payment provider (Stripe, PayPal, Razorpay, etc.) as demonstrated in many donation templates and tutorials. [web:3][web:8]
